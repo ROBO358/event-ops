@@ -10,11 +10,11 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: 'より拡張性を',
     Svg: require('@site/static/img/share-svgrepo-com.svg').default,
     description: (
       <>
-        これが、share-svgrepo-com.svg
+        forkしてコミュニティに沿ったイベント企画・運営に関する集合知作っていけるように
       </>
     ),
   },
