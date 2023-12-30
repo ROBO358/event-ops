@@ -14,12 +14,12 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 20
-          cache: pnpm
+          cache: npm
 
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile
+        run: npm ci
       - name: Build website
-        run: pnpm run build
+        run: npm run build
 
       - uses: actions/upload-pages-artifact@v1
         with:
