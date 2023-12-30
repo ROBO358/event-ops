@@ -60,7 +60,7 @@ const config: Config = {
     navbar: {
       title: 'イベント企画・運営Tips',
       logo: {
-        alt: 'event ops logo',
+        alt: 'page logo',
         src: 'img/home.svg',
       },
       items: [
@@ -68,7 +68,7 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Docs',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
