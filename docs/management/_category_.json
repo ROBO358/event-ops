@@ -1,8 +1,8 @@
 {
-  "label": "Plannings",
-  "position": 2,
+  "label": "Management",
+  "position": 3,
   "link": {
     "type": "generated-index",
-    "description": "企画"
+    "description": "運営"
   }
 }

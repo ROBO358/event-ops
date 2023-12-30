@@ -1,41 +1,23 @@
-# Website
+# イベント企画・運営Tips
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+DocusaurusでGitHub Pagesにホスティングしています。
 
-### Installation
+## ローカルでの開発
 
-```
-$ pnmp
+### taskfileのインストール
+
+[taskfileのドキュメント](https://taskfile.dev/ja-JP/installation/)を参考にインストールしてください。
+
+### Install pnpm
+
+```sh
+task install-pnpm
 ```
 
 ### Local Development
 
 ```
-$ pnmp start
+task run
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ pnmp build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true pnmp deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> pnmp deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+デフォルトでは、3000番ポートで起動します。
