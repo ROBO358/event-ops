@@ -1,0 +1,23 @@
+version: '3'
+
+silet: true
+
+tasks:
+  run:
+    desc: "To preview your changes as you edit the files, you can run a local development server that will serve your website and reflect the latest changes."
+    cmds:
+      - pnpm run start
+
+  build:
+    desc: "Docusaurus is a modern static website generator so we need to build the website into a directory of static contents and put it on a web server so that it can be viewed. To build the website"
+    cmds:
+      - pnpm run build
+
+  upgrade:
+    cmds:
+      - pnpm install
+      - npx docusaurus --version
+
+  install-pnpm:
+    cmds:
+      - npm install -g pnpm
