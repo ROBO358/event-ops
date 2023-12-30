@@ -14,9 +14,9 @@ sidebar_position: 1
 
 イベントの実施のために、以下の流れで進めていきます。
 
-1. [企画](./planning/intro.md)
-2. [運営](./management/intro.md)
-3. [振り返り](./retrospective/intro.md)
+1. [企画](./category/plannings)
+2. [運営](./category/management)
+3. [振り返り](./category/retrospective)
 
 このドキュメントでは、それぞれ普遍的な内容になるように心がけていますが、イベントの内容や特性に応じて臨機応変に対応する必要があります。適宜fork・PR作成をしてください。
 
