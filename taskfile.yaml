@@ -21,3 +21,5 @@ tasks:
   install-pnpm:
     cmds:
       - npm install -g pnpm
+      - pnpm install
+
