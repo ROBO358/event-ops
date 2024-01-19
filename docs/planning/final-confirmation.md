@@ -1,5 +1,5 @@
 ---
-sidebar_position: 7
+sidebar_position: 8
 ---
 
 # Final confirmation
@@ -7,6 +7,7 @@ sidebar_position: 7
 最後に、以下の項目を確認しましょう。
 
 - [ ] 目的は明確か
+- [ ] 行動指針は決定したか
 - [ ] 内容は明確か
 - [ ] 会場は決定したか
 - [ ] 日程は決定したか
